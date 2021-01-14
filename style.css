@@ -92,8 +92,18 @@ header {
     width: 100px;
 }
 
-@media screen and (min-width:576px) {
-    .women-jacket h1 {
+@media screen and (min-width:575px) {
+    .header-bottom-left .header-1 {
         margin-top: 10px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .header-bottom-right img {
+        width: 100%;
+        height: auto;
+    }
+    .women-jacket h1{
+        text-align: center;
+        font-weight: 700;
     }
 }
