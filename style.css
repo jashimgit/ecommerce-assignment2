@@ -1,3 +1,6 @@
+/* =====================
+    defualt css 
+======================== */
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -45,7 +48,9 @@ header {
     margin-right: 5px;
 }
 
-/*  nav section */
+/*====================
+    nav section 
+====================*/
 .navbar .logo {
     height: 40px;
     width: 265px;
@@ -56,11 +61,14 @@ header {
     font-weight: 700;
 }
 
-/* Woman jacket section */
+/*======================
+    Woman jacket section 
+======================*/
 
-.women-jacket {}
 
-.product-card {
+
+.product-card,
+.service-card {
     border: none;
 }
 
@@ -71,4 +79,21 @@ header {
 
 .card-image {
     border-radius: 6%;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    height: 20vw;
+}
+
+
+.service-item img {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width:576px) {
+    .women-jacket h1 {
+        margin-top: 10px;
+    }
 }
